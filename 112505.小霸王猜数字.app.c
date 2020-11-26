@@ -2,11 +2,11 @@
 #include <windows.h>
 void main()
 {
-	while(1){
-		int a=5;
-		int b;
  printf("猜数字大赛，如果你猜中了会有奖励噢\n");
  printf("友情提示:请猜0-10的数字\n");
+while(1){
+		int a=5;
+		int b;
  scanf("%d",&b);
  if (b==a)
  {
