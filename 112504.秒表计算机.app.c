@@ -10,3 +10,16 @@ printf("女:。。。\n");
 Sleep(5000);
 	}
 }
+或
+#include <stdio.h>
+#include <windows.h>
+void main ()
+{
+int a=1;
+while(1)
+{
+	Sleep(1000);
+	printf("%d...亲，又一秒过去了哦...\n",a);
+	a++;
+}
+}
