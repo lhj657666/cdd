@@ -1,10 +1,10 @@
 
 #include <stdio.h>
-int sum（）
+int sum()
 {
-return（2020）;
+return(2020);
 }
-无效main（）
+void main()
 {
-printf（“％d \ n”，sum（））;
+printf("%d\n",sum());
 }
